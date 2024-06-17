@@ -1,6 +1,8 @@
 //index.html 을 위한 js file
-function login(username) {
-    console.log("로그인 메세지" + username);
+function login(username,passwd) {
+    if(!password){
+        console.log("패스워드 값이 없습니다");
+    }
 };
 
 function logout() {
