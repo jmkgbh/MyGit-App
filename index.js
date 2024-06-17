@@ -1,6 +1,8 @@
 //index.html 을 위한 js file
-function login(username) {
-    console.log("로그인 메세지" + username);
+function login(username, password) {
+    if(username){
+        console.log("로그인 메세지" + username + " " + password);    
+    }
 };
 
 function logout() {
